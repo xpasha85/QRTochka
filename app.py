@@ -13,7 +13,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 st.subheader('Создание QRCode для "Точка Доставки"')
 name = st.text_input(label='Введите имя',)
-summ_input = int(st.number_input(label='Введите сумму', min_value=50, max_value=10000, step=500, value=2000))
+summ_input = int(st.number_input(label='Введите сумму', min_value=50, max_value=20000, step=500, value=2000))
 
 if st.button('Создать'):
     cont = st.container(border=True)
